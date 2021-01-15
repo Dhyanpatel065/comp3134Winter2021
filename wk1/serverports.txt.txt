@@ -5,10 +5,7 @@
 	is put in the header appended to a message unit.
 
 2. What is server port range ?
-	Registered ports are in the range 1024 to 49151. Dynamic ports are in 
-	the range 49152 to 65535. As mentioned, most new port assignments are 
-	in the range from 1024 to 49151. Registered port numbers are non–well-known 
-	ports that are used by vendors for their own server applications
+	port range is : 0 to 65535
 
 3. How many bits does number above represent?
 	For example, a string of three bits can represent up to eight distinct values as illustrated in Table 1.
@@ -20,6 +17,13 @@
 	6	64
 
 4. State 10 common server ports 
-	Ports and Protocols. Between the protocols User Datagram Protocol (UDP) 
-	and Transmission Control Protocol (TCP), 
-	there are 65,535 ports available for communication between devices.
+	20, 21	 File Transfer Protocol (FTP)	 TCP
+ 	22	 Secure Shell (SSH)	 TCP and UDP	
+	23	 Telnet	 TCP
+ 	25	 Simple Mail Transfer Protocol (SMTP)	 TCP
+ 	50, 51	 IPSec	 
+ 	53	 Domain Name System (DNS)	 TCP and UDP
+ 	67, 68	 Dynamic Host Configuration Protocol (DHCP)	 UDP
+ 	69	 Trivial File Transfer Protocol (TFTP)	 UDP
+ 	80	 HyperText Transfer Protocol (HTTP)	 TCP
+ 	110	 Post Office Protocol (POP3)	 TCP
